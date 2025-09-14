@@ -1,0 +1,40 @@
+﻿#Title {
+    text-shadow: -2px -2px 0 #008ad0, 2px -2px 0 #008ad0, -2px 2px 0 #008ad0, 2px 2px 0 #008ad0;
+}
+
+#Summary {
+    font-size: 20px
+}
+
+#Actors {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+}
+
+#CoverArt {
+    border-radius: 25px;
+}
+
+html {
+    background-color: #faf6ea;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    color: darkorange;
+}
+
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: darkorange;
+}
