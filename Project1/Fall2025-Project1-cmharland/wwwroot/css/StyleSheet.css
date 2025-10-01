@@ -1,0 +1,47 @@
+﻿/*Adds an outline to the Title to try and mimic the movie logo*/
+#Title {
+    text-shadow: -2px -2px 0 #008ad0, 2px -2px 0 #008ad0, -2px 2px 0 #008ad0, 2px 2px 0 #008ad0;
+}
+
+/*Sets the font size to 20px*/
+#Summary {
+    font-size: 20px
+}
+
+/*Sets the font size of the actors list and centers it*/
+#Actors {
+    display: inline-block;
+    text-align: left;
+    font-size: 25px;
+}
+
+/*Gives the image rounded edges*/
+#CoverArt {
+    border-radius: 25px;
+}
+
+html {
+    background-color: #faf6ea; /*Sets the background*/
+    margin: auto;
+    width: 50%;    /*Centers the text*/
+    text-align: center;
+    font-family: 'Orbitron'; /*Sets the font to "Orbitron"*/
+    font-weight: bold;  /*Makes the font bold*/
+    color: darkorange;  /*Makes the font "Dark Orange"*/
+}
+
+/*sets each hyperlink to the color "Dark Orange"*/
+a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+/*When you hover over the hyperlink it turns yellow*/
+a:hover {
+    color: yellow;
+}
+
+/*Keeps the hyperlink a "Dark Orange" color*/
+a:visited {
+    color: darkorange;
+}
